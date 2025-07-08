@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youtube</title>
+    <link rel="stylesheet" href="youclone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=add" />
+
+
+</head>
+
+<body>
+    <nav>
+    
+        <div class="icon">
+            <button class="menu-icon" onclick="toggleMenu()">
+                <div class="menu-icon-in">
+                    <hr>
+                    <hr>
+                    <hr>
+                </div>
+            </button>
+
+            <div class="yticon">
+                <a href="www.youtube.com" class="yicon">
+                    <img src="logo.png" alt="logo" style="width: 110px;">
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="search-container">
+            <div class="search-box">
+                <div class="search-boxup"><input type="text" placeholder="Search" /></div>
+                <button class="search-icon">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <button class="mic-button">
+                <i class="fas fa-microphone"></i>
+            </button>
+        </div>
+
+        <div id="rightmenu">
+<button class="create"> <span class="material-symbols-outlined" style="font-weight: 100; font-size: 36px;">add</span>create</button>
+<button class="notify"> <img src="notifications_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="noti"> </button>
+<button class="profile"> <img src="prof.jpg" alt="prof" style="border-radius: 50%; width: 32px ; height: 32px ;"></button>
+
+
+
+        </div>
+
+    </nav>
+    <div style="min-height: 56px;"></div>
+    <div class="bodi">
+        <div class="sidebar" id="sidebar">a
+       
+        </div>
+
+
+        <div class="cont">
+      
+        <img src="enhanced-image (2).png" alt="photo" height="25%" class="thumb">
+        <img src="enhanced-image (2).png" alt="photo" height="25%" class="thumb">
+        <img src="enhanced-image (2).png" alt="photo" height="25%" class="thumb">
+        <img src="enhanced-image (2).png" alt="photo" height="25%" class="thumb">
+        <img src="enhanced-image (2).png" alt="photo" height="25%" class="thumb">
+        <img src="enhanced-image (2).png" alt="photo" height="25%" class="thumb">
+       
+            <br>
+
+
+        </div>
+        <script>
+            function toggleMenu() {
+                document.getElementById("sidebar").classList.toggle("active");
+            }
+        </script>
+</body>
+
+</html>
